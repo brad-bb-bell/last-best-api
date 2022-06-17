@@ -1,0 +1,2 @@
+class ToDoResort < ApplicationRecord
+end
