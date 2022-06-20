@@ -1,0 +1,2 @@
+class ConditionsReportsController < ApplicationController
+end
