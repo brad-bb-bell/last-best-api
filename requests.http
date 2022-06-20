@@ -1,0 +1,37 @@
+### Resorts Index
+GET http://localhost:3000/resorts.json
+
+### Resorts Show
+GET http://localhost:3000/resorts/1.json
+
+### Events Index
+GET http://localhost:3000/events.json
+
+### Events Show
+GET http://localhost:3000/events/1.json
+
+### Events Create
+POST http://localhost:3000/events.json
+Content-Type: application/json
+
+{
+  "resort_id": 1,
+  "name": "Sample event",
+  "date": "1/01/23",
+  "description": "Sample event description",
+  "link": "http://www.bridgerbowl.com"
+}
+
+### Conditions_Report Index
+GET http://localhost:3000/conditions_reports.json
+
+### Conditions_Report Create
+POST http://localhost:3000/conditions_reports.json
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "resort_id": "1",
+  "rating": "5",
+  "comment": "Sample conditions report",
+}

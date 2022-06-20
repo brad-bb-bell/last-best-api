@@ -1,6 +1,15 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  ### Resort routes
+  get "/resorts" => "resorts#index"
+  get "/resorts/:id" => "resorts#show"
+
+  ### Event routes
+  get "/events" => "events#index"
+  get "/events/:id" => "events#show"
+  post "/events" => "events#create"
+
+  ### Conditions_Report routes
+  get "/conditions_reports" => "conditions_reports#index"
+  post "/conditions_reports" => "conditions_report#create"
 end
