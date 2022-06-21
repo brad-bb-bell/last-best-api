@@ -11,5 +11,5 @@ Rails.application.routes.draw do
 
   ### Conditions_Report routes
   get "/conditions_reports" => "conditions_reports#index"
-  post "/conditions_reports" => "conditions_report#create"
+  post "/conditions_reports" => "conditions_reports#create"
 end
