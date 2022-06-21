@@ -12,4 +12,10 @@ Rails.application.routes.draw do
   ### Conditions_Report routes
   get "/conditions_reports" => "conditions_reports#index"
   post "/conditions_reports" => "conditions_reports#create"
+
+  ### User routes
+  post "/users" => "users#create"
+
+  ### Session Create
+  post "/sessions" => "sessions#create"
 end
