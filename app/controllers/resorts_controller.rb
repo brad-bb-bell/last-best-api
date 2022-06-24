@@ -5,7 +5,7 @@ class ResortsController < ApplicationController
   end
 
   def show
-    resort = Resort.find_by(id: params[:id])
-    render json: resort.as_json
+    @resort = Resort.find_by(id: params[:id])
+    render template: "resorts/show"
   end
 end
