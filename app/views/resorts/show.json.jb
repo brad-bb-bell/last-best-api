@@ -15,4 +15,5 @@
   night_skiing: @resort.night_skiing,
   ticket_price: @resort.ticket_price,
   events: @resort.events,
+  conditions_reports: @resort.conditions_reports,
 }

@@ -5,8 +5,8 @@ class EventsController < ApplicationController
   end
 
   def show
-    event = Event.find_by(id: params[:id])
-    render json: event.as_json
+    @event = Event.find_by(id: params[:id])
+    render template: "events/show"
   end
 
   def create

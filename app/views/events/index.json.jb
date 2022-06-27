@@ -1,0 +1,6 @@
+@events.map do |event|
+  {
+    id: event.id,
+    url: event_url(event, format: :json)
+  }
+end
