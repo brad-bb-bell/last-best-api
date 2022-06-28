@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   post "/conditions_reports" => "conditions_reports#create"
 
   ### User routes
+  get "/users/:id" => "users#show"
   post "/users" => "users#create"
 
   ### Session Create
