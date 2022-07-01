@@ -16,4 +16,6 @@
   ticket_price: @resort.ticket_price,
   events: @resort.events,
   conditions_reports: @resort.conditions_reports,
+  image: @resort.image,
+  logo: @resort.logo,
 }
