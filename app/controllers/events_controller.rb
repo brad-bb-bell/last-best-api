@@ -1,7 +1,7 @@
 class EventsController < ApplicationController
   def index
-    events = Event.all
-    render json: events.as_json
+    @events = Event.all
+    render template: "events/index"
   end
 
   def show

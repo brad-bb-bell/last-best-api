@@ -1,0 +1,11 @@
+{
+  id: event.id,
+  resort: event.resort.name,
+  resort_id: event.resort.id,
+  name: event.name,
+  date: event.date,
+  description: event.description,
+  link: event.link,
+  created_at: event.created_at,
+  updated_at: event.updated_at,
+}

@@ -1,0 +1,8 @@
+{
+  id: @user.id,
+  username: @user.username,
+  email: @user.email,
+  home_resort_id: @user.home_resort_id,
+  to_do_resorts: @user.to_do_resorts,
+  favorite_resorts: @user.favorite_resorts,
+}
