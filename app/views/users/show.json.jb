@@ -5,4 +5,5 @@
   home_resort_id: @user.home_resort_id,
   to_do_resorts: @user.to_do_resorts,
   favorite_resorts: @user.favorite_resorts,
+  days_skied: @user.days_skied,
 }

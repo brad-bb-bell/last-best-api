@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_07_01_173453) do
+ActiveRecord::Schema[7.0].define(version: 2022_07_01_202106) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -77,6 +77,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_01_173453) do
     t.integer "home_resort_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "days_skied"
   end
 
 end
