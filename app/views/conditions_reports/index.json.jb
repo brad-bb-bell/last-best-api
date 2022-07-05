@@ -1,0 +1,1 @@
+render partial: "conditions_report/conditions_report", collection: @conditions_report, as: :conditions_report

@@ -1,6 +1,1 @@
-@resorts.map do |resort|
-  {
-    id: resort.id,
-    url: resort_url(resort, format: :json)
-  }
-end
+render partial: "resorts/resorts", collection: @resorts, as: :resort

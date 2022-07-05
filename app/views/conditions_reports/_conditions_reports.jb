@@ -1,0 +1,7 @@
+{
+  resort: conditions_report.resort.name,
+  reported_by: conditions_report.user.username,
+  rating: conditions_report.rating,
+  comment: conditions_report.comment,
+  created_at: conditions_report.created_at.strftime("%B %e, %Y"),
+}

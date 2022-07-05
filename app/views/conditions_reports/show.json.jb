@@ -1,0 +1,1 @@
+render "conditions_reports/conditions_reports", conditions_report: @conditions_report
