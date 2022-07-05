@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   ### User routes
   get "/users/:id" => "users#show"
   post "/users" => "users#create"
+  patch "/users/:id" => "users#update"
 
   ### Session Create
   post "/sessions" => "sessions#create"

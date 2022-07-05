@@ -18,4 +18,14 @@ class UsersController < ApplicationController
       render json: { errors: user.errors.full_messages }, status: :bad_request
     end
   end
+
+  def update
+    user = User.find_by(id: params["id"])
+    ski_days = user.days_skied + 1
+    user.days_skied = ski_days
+    if user.save
+      @user = user
+      render template: "users/show"
+    end
+  end
 end
