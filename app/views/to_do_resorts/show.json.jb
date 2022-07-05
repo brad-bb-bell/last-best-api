@@ -1,0 +1,1 @@
+render "to_do_resort/to_do_resorts", to_do_resort: @to_do_resort

@@ -1,0 +1,6 @@
+@favorite_resorts.map do |favorite_resort|
+  {
+    id: favorite_resort.id,
+    url: favorite_resort_url(favorite_resort, format: :json)
+  }
+end

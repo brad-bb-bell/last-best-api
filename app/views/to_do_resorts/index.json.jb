@@ -1,0 +1,6 @@
+@to_do_resorts.map do |to_do_resort|
+  {
+    id: to_do_resort.id,
+    url: to_do_resort_url(to_do_resort, format: :json)
+  }
+end

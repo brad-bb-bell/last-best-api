@@ -3,7 +3,11 @@
   username: @user.username,
   email: @user.email,
   home_resort_id: @user.home_resort_id,
-  to_do_resorts: @user.to_do_resorts,
-  favorite_resorts: @user.favorite_resorts,
+  to_do_resorts: @user.to_do_resorts.map do |to_do_resort|
+    render "to_do_resorts/to_do_resorts", to_do_resort: to_do_resort
+  end,
+  favorite_resorts: @user.favorite_resorts.map do |favorite_resort|
+    render "favorite_resorts/favorite_resorts", favorite_resort: favorite_resort
+  end,
   days_skied: @user.days_skied,
 }
