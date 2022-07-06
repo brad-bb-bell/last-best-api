@@ -1,4 +1,4 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwiZXhwIjoxNjU3MTI3ODAxfQ.oT7P2sVaJkeodcAsr_3ESW_poXmgVJBilXz1czg-tbk
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwiZXhwIjoxNjU3MjI1Nzg0fQ.4GYXiDceT7bWRXfaaCx2L-nJ610j6BCfGFJJvyLHUZs
 
 ####################################################
 ### Resorts Index
@@ -71,4 +71,18 @@ Content-Type: application/json
 {
   "email": "brad.bb.bell@gmail.com",
   "password": "password"
+}
+
+####################################################
+### To Do Resorts index
+GET http://localhost:3000/to_do_resorts
+
+### To Do Resorts create
+POST http://localhost:3000/to_do_resorts
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+{
+  "resort_id": 10,
+  "user_id": 10
 }

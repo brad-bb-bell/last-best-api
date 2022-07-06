@@ -13,6 +13,10 @@ Rails.application.routes.draw do
   get "/conditions_reports" => "conditions_reports#index"
   post "/conditions_reports" => "conditions_reports#create"
 
+  ### To_Do_Resort routes
+  get "/to_do_resorts" => "to_do_resorts#index"
+  post "/to_do_resorts" => "to_do_resorts#create"
+
   ### User routes
   get "/users/:id" => "users#show"
   post "/users" => "users#create"
