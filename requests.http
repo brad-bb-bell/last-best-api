@@ -86,3 +86,25 @@ Authorization: Bearer {{jwt}}
   "resort_id": 10,
   "user_id": 10
 }
+
+### To Do Resorts destroy
+DELETE http://localhost:3000/to_do_resorts/15.json
+Authorization: Bearer {{jwt}}
+
+####################################################
+### Favorite_Resort Index
+GET http://localhost:3000/favorite_resorts
+
+### Favorite_Resort Create
+POST http://localhost:3000/favorite_resorts
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+{
+  "user_id": 10,
+  "resort_id": 3
+}
+
+### Favorite Resorts destroy
+DELETE http://localhost:3000/favorite_resorts/6.json
+Authorization: Bearer {{jwt}}

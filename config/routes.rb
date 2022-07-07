@@ -16,6 +16,12 @@ Rails.application.routes.draw do
   ### To_Do_Resort routes
   get "/to_do_resorts" => "to_do_resorts#index"
   post "/to_do_resorts" => "to_do_resorts#create"
+  delete "/to_do_resorts/:id" => "to_do_resorts#destroy"
+
+  ### Favorite_Resort routes
+  get "/favorite_resorts" => "favorite_resorts#index"
+  post "/favorite_resorts" => "favorite_resorts#create"
+  delete "/favorite_resorts/:id" => "favorite_resorts#destroy"
 
   ### User routes
   get "/users/:id" => "users#show"
