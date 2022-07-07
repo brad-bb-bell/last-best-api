@@ -1,5 +1,6 @@
 {
   id: to_do_resort.id,
+  resort_id: to_do_resort.resort_id,
   name: to_do_resort.resort.name,
   logo: to_do_resort.resort.logo,
 }
