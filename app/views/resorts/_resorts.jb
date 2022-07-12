@@ -14,6 +14,8 @@
   terrain_park: @resort.terrain_park,
   night_skiing: @resort.night_skiing,
   ticket_price: @resort.ticket_price,
+  lat: @resort.lat,
+  long: @resort.long,
   events: @resort.events,
   conditions_reports: @resort.conditions_reports.map do |conditions_report|
     render "conditions_reports/conditions_reports", conditions_report: conditions_report

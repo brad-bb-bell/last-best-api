@@ -5,7 +5,7 @@
 GET http://localhost:3000/resorts.json
 
 ### Resorts Show
-GET http://localhost:3000/resorts/1.json
+GET http://localhost:3000/resorts/4.json
 
 ####################################################
 ### Events Index
