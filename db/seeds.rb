@@ -22,6 +22,12 @@ Event.create!(resort_id: 1, name: "MSU Bobcat Ski Day", date: "01/21/2023", desc
 Event.create!(resort_id: 1, name: "Apron Challenge", date: "01/22/2023", description: "Timed hike up the Apron and a wild ski descent down an off-piste GS course. Open to citizen alpine, telemark and snowboard racers of all ages.", link: "")
 Event.create!(resort_id: 2, name: "The Rut", date: "09/22/2022", description: "A three-day Montana mountain running celebration, The Rut brings amateurs and pros alike for a weekend of running on Lone Peak.")
 
+User.create!(email: "brad.bb.bell@gmail.com", username: "bb", password: "password", home_resort_id: 1)
+User.create!(email: "sallyshreds@test.com", username: "Sally Shredsalot", password: "password", home_resort_id: 2)
+User.create!(email: "hughjair@test.com", username: "Hugh Jair", password: "password", home_resort_id: 4)
+User.create!(email: "alwaysfrenchfry@test.com", username: "Felicia Frenchfry", password: "password", home_resort_id: 7)
+User.create!(email: "pizzapieguy@test.com", username: "Johnny Pizzapie", password: "password", home_resort_id: 5)
+
 ConditionsReport.create!(user_id: 1, resort_id: 1, rating: 5, comment: "Amazing day! So much powder!")
 ConditionsReport.create!(user_id: 1, resort_id: 1, rating: 2, comment: "Frozen chunder... tough skiing out there!")
 ConditionsReport.create!(user_id: 2, resort_id: 2, rating: 4, comment: "Pretty great packed powder skiing. Bumps on Challenger are prime!")
