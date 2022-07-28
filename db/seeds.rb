@@ -1,5 +1,4 @@
-user = User.create!(email: "brad.bb.bell@gmail.com", username: "bb", password: "password", home_resort_id: 1)
-user.save
+# User.create!(email: "brad.bb.bell@gmail.com", username: "bb", password: "password", home_resort_id: 1)
 # User.create!(email: "sallyshreds@test.com", username: "Sally Shredsalot", password: "password", home_resort_id: 2)
 # User.create!(email: "hughjair@test.com", username: "Hugh Jair", password: "password", home_resort_id: 4)
 # User.create!(email: "alwaysfrenchfry@test.com", username: "Felicia Frenchfry", password: "password", home_resort_id: 7)
