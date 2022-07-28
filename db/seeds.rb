@@ -1,8 +1,8 @@
-User.create!(email: "brad.bb.bell@gmail.com", username: "bb", password_digest: "password", home_resort_id: 1)
-User.create!(email: "sallyshreds@test.com", username: "Sally Shredsalot", password_digest: "password", home_resort_id: 2)
-User.create!(email: "hughjair@test.com", username: "Hugh Jair", password_digest: "password", home_resort_id: 4)
-User.create!(email: "alwaysfrenchfry@test.com", username: "Felicia Frenchfry", password_digest: "password", home_resort_id: 7)
-User.create!(email: "pizzapieguy@test.com", username: "Johnny Pizzapie", password_digest: "password", home_resort_id: 5)
+User.create!(email: "brad.bb.bell@gmail.com", username: "bb", password: "password", home_resort_id: 1)
+User.create!(email: "sallyshreds@test.com", username: "Sally Shredsalot", password: "password", home_resort_id: 2)
+User.create!(email: "hughjair@test.com", username: "Hugh Jair", password: "password", home_resort_id: 4)
+User.create!(email: "alwaysfrenchfry@test.com", username: "Felicia Frenchfry", password: "password", home_resort_id: 7)
+User.create!(email: "pizzapieguy@test.com", username: "Johnny Pizzapie", password: "password", home_resort_id: 5)
 
 Resort.create!(name: "Bridger Bowl", vertical: 2700, acres: 2000, elevation_top: 8800, elevation_base: 6100, avg_snowfall: 300, chairlifts: 8, surface_lifts: 3, total_lifts: 11, terrain_park: true, night_skiing: false, opening_day: "12/19/2022", closing_day: "04/08/2023", lat: 45.8174, long: -110.8966, ticket_price: 70)
 Resort.create!(name: "Big Sky", vertical: 4350, acres: 5800, elevation_top: 11166, elevation_base: 6100, avg_snowfall: 400, chairlifts: 24, surface_lifts: 12, total_lifts: 36, terrain_park: true, night_skiing: false, opening_day: "11/23/2022", closing_day: "4/22/2023", lat: 45.2857, long: -111.4012, ticket_price: 184)
