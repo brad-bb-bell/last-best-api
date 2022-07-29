@@ -23,6 +23,10 @@ Rails.application.routes.draw do
   post "/favorite_resorts" => "favorite_resorts#create"
   delete "/favorite_resorts/:id" => "favorite_resorts#destroy"
 
+  ### Fun_Fact routes
+  get "/fun_facts/" => "fun_facts#index"
+  get "/fun_facts/:id" => "fun_facts#show"
+
   ### User routes
   get "/users/:id" => "users#show"
   post "/users" => "users#create"

@@ -1,0 +1,7 @@
+@fun_facts.map do |fun_fact|
+  {
+    id: fun_fact.id,
+    resort_id: fun_fact.resort_id,
+    fact: fun_fact.fact,
+  }
+end

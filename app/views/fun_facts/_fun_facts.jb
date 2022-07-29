@@ -1,0 +1,5 @@
+{
+  id: @fun_fact.id,
+  resort_id: @fun_fact.resort_id,
+  name: @fun_fact.fact,
+}

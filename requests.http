@@ -108,3 +108,10 @@ Authorization: Bearer {{jwt}}
 ### Favorite Resorts destroy
 DELETE http://localhost:3000/favorite_resorts/6.json
 Authorization: Bearer {{jwt}}
+
+####################################################
+### Fun_Facts Index
+GET http://localhost:3000/fun_facts
+
+### Fun_Facts Show
+GET http://localhost:3000/fun_facts/1.json
