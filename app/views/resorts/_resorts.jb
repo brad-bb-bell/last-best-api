@@ -22,4 +22,5 @@
   end,
   image: @resort.image,
   logo: @resort.logo,
+  fun_facts: @resort.fun_facts,
 }
