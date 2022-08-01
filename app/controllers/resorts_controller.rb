@@ -1,7 +1,7 @@
 class ResortsController < ApplicationController
   def index
-    resorts = Resort.all
-    render json: resorts.as_json
+    @resorts = Resort.all
+    render template: "resorts/index"
   end
 
   def show
