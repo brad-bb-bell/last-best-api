@@ -8,6 +8,7 @@ class UsersController < ApplicationController
     user = User.new(
       username: params[:username],
       email: params[:email],
+      home_resort_id: params[:home_resort_id],
       password: params[:password],
       password_confirmation: params[:password_confirmation],
       days_skied: 0,
