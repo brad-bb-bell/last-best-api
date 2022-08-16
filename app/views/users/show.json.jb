@@ -9,5 +9,8 @@
   favorite_resorts: @user.favorite_resorts.map do |favorite_resort|
     render "favorite_resorts/favorite_resorts", favorite_resort: favorite_resort
   end,
+  conditions_reports: @user.conditions_reports do |conditions_report|
+    render "conditions_reports/conditions_reports", conditions_report: conditions_report
+  end,
   days_skied: @user.days_skied,
 }
