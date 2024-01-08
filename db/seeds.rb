@@ -1,3 +1,5 @@
+User.create!(email: "brad.bb.bell@gmail.com", username: "bb", password: "password", home_resort_id: 1)
+
 Resort.create!(name: "Bridger Bowl", vertical: 2700, acres: 2000, elevation_top: 8800, elevation_base: 6100, avg_snowfall: 300, chairlifts: 8, surface_lifts: 3, total_lifts: 11, terrain_park: true, night_skiing: false, opening_day: "12/19/2022", closing_day: "04/08/2023", lat: 45.8174, long: -110.8966, ticket_price: 70)
 Resort.create!(name: "Big Sky", vertical: 4350, acres: 5800, elevation_top: 11166, elevation_base: 6100, avg_snowfall: 400, chairlifts: 24, surface_lifts: 12, total_lifts: 36, terrain_park: true, night_skiing: false, opening_day: "11/23/2022", closing_day: "4/22/2023", lat: 45.2857, long: -111.4012, ticket_price: 184)
 Resort.create!(name: "Yellowstone Club", vertical: 2700, acres: 2900, elevation_top: 9860, elevation_base: 7160, avg_snowfall: 300, chairlifts: 13, surface_lifts: 0, total_lifts: 13, terrain_park: false, night_skiing: false, opening_day: "11/23/2022", closing_day: "4/22/2023", lat: 45.2458, long: -111.3745, ticket_price: 41500)
@@ -22,11 +24,6 @@ Resort.create!(name: "Lookout Pass", vertical: 1150, acres: 540, elevation_top: 
 # Event.create!(resort_id: 1, name: "Apron Challenge", date: "01/22/2023", description: "Timed hike up the Apron and a wild ski descent down an off-piste GS course. Open to citizen alpine, telemark and snowboard racers of all ages.", link: "")
 # Event.create!(resort_id: 2, name: "The Rut", date: "09/22/2022", description: "A three-day Montana mountain running celebration, The Rut brings amateurs and pros alike for a weekend of running on Lone Peak.")
 
-# User.create!(email: "brad.bb.bell@gmail.com", username: "bb", password: "password", home_resort_id: 1)
-# User.create!(email: "sallyshreds@test.com", username: "Sally Shredsalot", password: "password", home_resort_id: 2)
-# User.create!(email: "hughjair@test.com", username: "Hugh Jair", password: "password", home_resort_id: 4)
-# User.create!(email: "alwaysfrenchfry@test.com", username: "Felicia Frenchfry", password: "password", home_resort_id: 7)
-# User.create!(email: "pizzapieguy@test.com", username: "Johnny Pizzapie", password: "password", home_resort_id: 5)
 
 # ConditionsReport.create!(user_id: 1, resort_id: 1, rating: 5, comment: "Amazing day! So much powder!")
 # ConditionsReport.create!(user_id: 1, resort_id: 1, rating: 2, comment: "Frozen chunder... tough skiing out there!")
